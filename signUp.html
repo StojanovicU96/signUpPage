@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="signUp.css">
+    <link rel="stylesheet" href="bootstrap.css">    
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <title>SignUp</title>
+</head>
+<body>
+    <div class="cover"></div>
+    <div class="container-fluid">
+        <div class="main row">
+            <div class="col-12 col-md-6">
+                <div class="description-section">
+                    <h1>Learn to code by watching others</h1>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                        Quae dicta inventore quo libero iure repellat nostrum quisquam sed. Laudantium culpa veritatis autem doloremque iusto deserunt neque veniam cumque non totam.</p>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 main-section">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="free-trial-section">
+                            <p id="trial-info"><span>Try it free for 7 days</span> then 20$/mo. thereafter</p>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="form-section">
+                            <div class="row">
+                                <div class="col-12">
+                                    <div class="form-item">
+                                        <input type="text" placeholder="First Name">
+                                        <img class="cross-icon" src="images/icon-error.svg" alt="">
+                                    </div>
+                                    <small class="empty-alert">First name cannot be empty</small>
+                                </div>
+                                <div class="col-12">
+                                    <div class="form-item">
+                                        <input type="text" placeholder="Last Name">
+                                        <img class="cross-icon" src="images/icon-error.svg" alt="">
+                                    </div>
+                                    <small class="empty-alert">Last name cannot be empty</small>
+                                </div>
+                                <div class="col-12">
+                                    <div class="form-item">
+                                        <input type="email" placeholder="Email">
+                                        <img class="cross-icon" src="images/icon-error.svg" alt="">
+                                    </div>
+                                    <small class="empty-alert">Email cannot be empty</small>
+                                </div>
+                                <div class="col-12">
+                                    <div class="form-item">
+                                        <input type="password" placeholder="Password">
+                                        <img class="cross-icon" src="images/icon-error.svg" alt="">
+                                    </div>
+                                    <small class="empty-alert">Password cannot be empty</small>
+                                </div>
+                            </div>
+                            <button type="button" class="btn btn-success">CLAIM YOUR FREE TRIAL</button>
+                            <small id="terms-and-services">By clicking on the button you are agreeing to our <span id="terms-span">Terms And Services</span></small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script type="text/javascript" src="signUp.js">
+    </script>    
+</body>
+</html>
